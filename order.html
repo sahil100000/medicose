@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER NOW</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="phone.css"> -->
+</head>
+<body>
+    <h1 class="h1-primary">What would you like to have?</h1>
+    <div class="topnav">
+        <a class="active" href="#home">HOME</a>
+        <a href="#about">ABOUT US</a>
+        <a href="#service-container">SERVICES</a>
+        <a href="#client-section">CLIENTS</a>
+        <a href="#contact">CONTACT US</a>
+        <input type="text" placeholder="Search..">
+        <button class="btn">search</button>
+    </div>
+    <div class="header">
+        <p class="category">CATEGORY</p>
+        <div class="cart"><img src="./media/shopping-cart.png"><p id="count">0</p></div>
+    </div>
+    <div class="container">
+        <div id="root"></div>
+        <div class="sidebar">
+            <div class="head"><p>My Cart</p></div>
+            <div id="cartitem">Your cart is empty</div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total">$ 0.00</h2>
+                <a href="payment.html"><button class="btn">Pay Now</a></button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./javascript/cart.js"></script>
+</body>
+</html>
